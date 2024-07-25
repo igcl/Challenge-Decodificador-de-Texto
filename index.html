@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="icon" href="/image/alura.ico" type="image/x-icon">
+    <title>Challenge Decodificador de Texto</title>
+</head>
+<body>
+    <div class="tela">
+    <header class="corpo">
+        <a href="https://alura.com.br" target="_blank"><img class="corpo__imagem__logo" src="/image/alura.png" alt="Logo da Alura."></a>
+    </header>
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <div>
+                <div class="input-container">
+                <h1 id="texto" onclick="transformarParaTextarea()" class="apresentacao__conteudo__texto">Digite seu texto</h1>
+                </div>
+                    <div class="caralho">       
+                        <h2 class="apresentacao__conteudo__textos"><img src="./image/exclama.png" alt="Um ponto de exclamação.">Apenas letras minúsculas e sem acento.</h2>
+                        <button class="rodape__botao__botao11" onclick="botao()">Criptografar</button>
+                        <button class="rodape__botao__botao22" onclick="descriptografar()">Descriptografar</button>
+                    </div>
+            </div>
+            <div class="apresentacao__conteudo__foto">
+                <div id="crip">
+                    <div id="mensagemInstrucao3">
+                    <img src="./image/pessoa.png" alt="Imagem de uma mulher analisando um diamante com uma lupa.">
+                    </div>
+                    <p id="mensagemEncontrada" class="apresentacao__conteudo__texto1">Nenhuma mensagem encontrada</p>
+                    <p2 id="mensagemInstrucao1" class="apresentacao__conteudo__texto2">Digite um texto que você deseja</p2>
+                    <p3 id="mensagemInstrucao2" class="apresentacao__conteudo__texto3">criptografar ou descriptografar.</p3>
+                    <!-- <button id="copiarTexto" class="botao-copiar">Copiar Texto</button> -->
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- <footer class="rodape__creditos">
+        <div>
+        <p class="rodape__texto"><img src="/image/GitHub.png" class="github"><a class="rodape__creditos__link" href="https://github.com/igcl" target="_blank">Desenvolvido por Ighor Gabriel</a></p>
+        </div>
+    </footer> -->
+    </div>
+    <script src="app.js" defer></script>
+</body>
+</html>
